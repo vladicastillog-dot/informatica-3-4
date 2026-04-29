@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-    int item;
-    float price;
-    int quantity;
+    int item;manzana
+    float price;8
+    int quantity;3
     printf("********************************\n");
     printf("Techdraui Grocery Store \n");
     printf("********************************\n");
