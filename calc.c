@@ -23,7 +23,7 @@ int main(void){
         Mult();
     }else if(user_response == 3){
         Div();
-    }else if(iser_response == 4){
+    }else if(user_response == 4){
         Res();
 
     }else {
@@ -32,13 +32,70 @@ int main(void){
     }
 
 }
+
 void Sum(void){
-    float Sum;
-    printf("Enter the number: ");
-    scanf("%f", &Sum);
-    
+    float S1;
+float S2;
+float S3;
+      printf("ENTER FIRST NUMBER: ");
+      scanf("%f" , &S1);
+       printf("ENTER SECOND NUMBER: ");
+       scanf("%f" , &S2);
+      S3= (S1 + S2);
+      printf("%.2f + %.2f = %.2f\n" , S1, S2, S3);
+
+
+
 
 }
+void Mult(void){
+     float S1;
+float S2;
+float S3;
+      printf("ENTER FIRST NUMBER: ");
+      scanf("%f" , &S1);
+       printf("ENTER SECOND NUMBER: ");
+       scanf("%f" , &S2);
+      S3= (S1 * S2);
+      printf("%.2f + %.2f = %.2f\n" , S1, S2, S3);
+
+
+
+}
+void Div(void){
+    float S1;
+float S2;
+float S3;
+      printf("ENTER FIRST NUMBER: ");
+      scanf("%f" , &S1);
+       printf("ENTER SECOND NUMBER: ");
+       scanf("%f" , &S2);
+      S3= (S1 / S2);
+      printf("%.2f + %.2f = %.2f\n" , S1, S2, S3);
+
+
+
+}
+void Res(void){
+     float S1;
+float S2;
+float S3;
+      printf("ENTER FIRST NUMBER: ");
+      scanf("%f" , &S1);
+       printf("ENTER SECOND NUMBER: ");
+       scanf("%f" , &S2);
+      S3= (S1 - S2);
+      printf("%.2f + %.2f = %.2f\n" , S1, S2, S3);
+
+
+
+}
+
+
+
+
+
+
 
 
 
